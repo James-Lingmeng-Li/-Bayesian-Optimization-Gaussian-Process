@@ -1,11 +1,5 @@
 # -Bayesian-Optimization-Gaussian-Process
  Bayesian Optimization Gaussian Process
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Oct 22 10:46:46 2018
-
-@author: James Li
-"""
 
 import numpy as np
 
