@@ -165,7 +165,7 @@ plt.title('Value of best selected sample')
 from sklearn.gaussian_process import GaussianProcessRegressor
 from sklearn.gaussian_process.kernels import ConstantKernel, Matern
 
-# Gaussian process with Mat??rn kernel as surrogate model
+# Gaussian process with Matern kernel as surrogate model
 m52 = ConstantKernel(1.0) * Matern(length_scale=1.0, nu=2.5)
 gpr = GaussianProcessRegressor(kernel=m52, alpha=noise**2)
 
